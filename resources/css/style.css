@@ -1,1 +1,56 @@
+*{
+  box-sizing: border-box;
+}
 
+html{
+  height: 100%;
+}
+
+body{
+  background-color: black;
+  color: white;
+  font-family: verdana, sans-serif;
+  margin: 8px;
+  display: block;
+  text-align: center;
+}
+
+#title{
+  display: block;
+  font-size: 50px;
+  white-space: nowrap;
+  font-weight: bold;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.excursion{
+  display: block;
+  color: aquamarine;
+  font-size: 16px;
+  text-decoration: underline;
+  display: inline;
+  white-space: nowrap;
+  margin-bottom: 21px;
+}
+
+div.footer{
+  display: block;
+  text-align: right;
+  color: gray;
+}
+
+h1{
+  font-weight: normal;
+  font-size: 50px;
+}
+
+.detail{
+  font-size: 21px;
+  color: gray;
+}
+
+h2.guide{
+  font-weight: 300;
+  font-size: 42px;
+}
